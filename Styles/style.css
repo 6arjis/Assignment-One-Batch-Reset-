@@ -29,6 +29,7 @@ line-height: 33px;
     font-weight: 600;
     line-height: 23px;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* Section One Style */
 .section-one{
@@ -192,6 +193,9 @@ line-height: 33px;
 }
 .s3-video{
     height: 600px;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 8px;
 }
 .s3-video iframe{
     height: 100%;
@@ -329,7 +333,6 @@ margin-bottom: 5px;
 }
 .tech a{
     color: rgb(13, 19, 33);
-    text-decoration: none;
     font-size: 16px;
     margin: 10px;
     font-family:Azeret Mono;
@@ -389,6 +392,7 @@ margin-bottom: 10px;
     font-weight: 600;
     border: none;
     margin-left: 10px;
+    cursor: pointer;
 }
 /* Footer Style */
 .footer{
