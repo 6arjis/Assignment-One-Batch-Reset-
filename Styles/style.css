@@ -127,3 +127,39 @@
     margin-bottom: 20px;
 
 }
+/* Section Three Style */
+.section-three{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.s3-head{
+    height: 150px;
+   margin-bottom: 20px;
+}
+.s3-head h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s3-head p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.s3-video{
+    height: 600px;
+}
+.s3-video iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
