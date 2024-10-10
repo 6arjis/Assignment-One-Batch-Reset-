@@ -6,10 +6,11 @@
 }
 /* Section One Style */
 .section-one{
-    width: 1535px;
+    width: 1515px;
     height: 652px;
     background-image: url("../assets/Hero-bg.png");
     padding: 50px;
+    margin: 0 auto;
 }
 .s1-container{
     height: 550px;
@@ -49,7 +50,9 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
+
 /* Section Two Style */
 .section-two{
     width: 1140px;
@@ -59,6 +62,7 @@
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-top: 100px;
+    padding-top: 50px;
 }
 .s2-head{
     height: 150px;
@@ -125,7 +129,12 @@
     font-weight: 500;
     line-height: 23px;
     margin-bottom: 20px;
+    cursor: pointer;
 
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 /* Section Three Style */
 .section-three{
@@ -293,4 +302,23 @@ margin-bottom: 10px;
     font-weight: 600;
     border: none;
     margin-left: 10px;
+}
+/* Footer Style */
+.footer{
+    height: 100px;
+    width: 1140px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;   
+    margin: 0 auto;
+}
+.footer h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.social img{
+    margin-right: 20px;
 }
