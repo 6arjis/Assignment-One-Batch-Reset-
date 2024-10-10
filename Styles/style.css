@@ -136,7 +136,7 @@
 }
 .s3-head{
     height: 150px;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .s3-head h2{
     color: rgb(13, 19, 33);
@@ -162,4 +162,80 @@
     height: 100%;
     width: 100%;
     border-radius: 12px;
+}
+/* Section four style */
+.section-four{
+    width: 1140px;
+    height: 480px; 
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.s4-head{
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}
+.s4-head h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+.s4-head p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.s4-body{
+    height: 320px;
+    display: flex;
+    padding: 20px;
+}
+.card{
+    width: 364px;
+    height: 280px;
+    margin: 10px;
+    padding: 20px;
+}
+.card h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+margin-bottom: 5px;
+}
+.card p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 5px;
+}
+.card a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+margin-bottom: 5px;
+}
+.card-html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-js{
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
 }
